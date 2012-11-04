@@ -80,10 +80,12 @@ namespace Scheduler
         }
         #endregion 
 
+        #region Cancel an event.
         private void btnCancel_Click(object sender, EventArgs e)
         {
             doubleDelayer = -1;
             this.Close();
         }
+        #endregion
     }
 }

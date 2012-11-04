@@ -11,10 +11,13 @@ namespace Scheduler
 {
     public partial class About : Form
     {
+        #region Constructor
         public About()
         {
             InitializeComponent();
         }
+        #endregion
+
         #region Binds the url of the html file to the webBrowser Control.
         private void About_Load(object sender, EventArgs e)
         {
@@ -29,5 +32,9 @@ namespace Scheduler
         }
         #endregion
 
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

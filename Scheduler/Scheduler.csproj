@@ -168,7 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="alarmClock.ico" />
-    <Content Include="alarmClock48.ico" />
     <Content Include="schedulerIcon128.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.btnOkayClose = new System.Windows.Forms.Button();
             this.wbAbout = new System.Windows.Forms.WebBrowser();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOkayClose
@@ -57,15 +58,28 @@
             this.wbAbout.TabIndex = 2;
             this.wbAbout.TabStop = false;
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Location = new System.Drawing.Point(180, 243);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(79, 25);
+            this.btnHelp.TabIndex = 3;
+            this.btnHelp.Text = "Help";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 280);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.wbAbout);
             this.Controls.Add(this.btnOkayClose);
             this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "About";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -80,5 +94,6 @@
 
         private System.Windows.Forms.Button btnOkayClose;
         private System.Windows.Forms.WebBrowser wbAbout;
+        private System.Windows.Forms.Button btnHelp;
     }
 }

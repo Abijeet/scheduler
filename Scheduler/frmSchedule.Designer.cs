@@ -119,6 +119,7 @@
             // 
             // dtPicker
             // 
+            this.dtPicker.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtPicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dtPicker.Location = new System.Drawing.Point(260, 69);
             this.dtPicker.Name = "dtPicker";
@@ -193,7 +194,7 @@
             // 
             this.notifyIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyIcon.BalloonTipText = "\r\nScheduler will always be accessible through the notification area.\r\n\r\nTo close " +
-                "Scheduler exit it from the notification area.";
+    "Scheduler exit it from the notification area.";
             this.notifyIcon.BalloonTipTitle = "Tip";
             this.notifyIcon.ContextMenuStrip = this.notifyMenu;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
@@ -209,7 +210,7 @@
             this.toolStripSeparator1,
             this.nmExitItem});
             this.notifyMenu.Name = "notifyMenu";
-            this.notifyMenu.Size = new System.Drawing.Size(215, 76);
+            this.notifyMenu.Size = new System.Drawing.Size(215, 98);
             // 
             // showMainWindowToolStripMenuItem
             // 
