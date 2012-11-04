@@ -1,1 +1,1 @@
-A simple scheduler application that allows you to schedule events such as shutdown, restart, log off, start a program and display a message at a specified time. Currently only works on windows.
+A simple scheduler application that allows you to schedule events such as shutdown, restart, log off, start a program and display a message at a specified time. Currently only works on Windows.
